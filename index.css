@@ -1,3 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: antiquewhite;
+    color:antiquewhite;
+    font-size: 1rem;
+    font-family: monospace, sans-serif;
+    background-color: rgb(244,238,224);
+}
+
+.outerBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerBox {
+    display: inline;
+    background-color: aqua;
+    color: black;
+    min-height: 100vh;
+    margin: 5%;
 }
