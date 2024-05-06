@@ -1,25 +1,45 @@
-* {
+@import url();
+
+* {         /*called a CSS reset*/
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
 body {
-    color:antiquewhite;
     font-size: 1rem;
     font-family: monospace, sans-serif;
-    background-color: rgb(244,238,224);
+    background-color: hsl(10deg, 58%, 90%);
+    height: 100vh;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
 }
+
 
 .outerBox {
     display: flex;
-    justify-content: space-between;
+    padding-top: 20vh;
+    height: 80vh;
+    margin: 2px solid black;
+    gap: 1rem;
+    justify-content: center;    /*for the horizontal axis*/
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .innerBox {
-    display: inline;
-    background-color: aqua;
-    color: black;
-    min-height: 100vh;
-    margin: 5%;
+    /* display: inline; */
+    /* border: 2px solid black; */
+    height: 50vh;
 }
+
+.innerBox img {
+    height: inherit;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
