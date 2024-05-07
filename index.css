@@ -43,3 +43,11 @@ body {
     align-content: center;
 }
 
+.contentBox img {
+    margin-inline: 2vh;
+    height: 8vh;
+}
+
+.contentBox img:hover {
+    opacity: 0.5;
+}
