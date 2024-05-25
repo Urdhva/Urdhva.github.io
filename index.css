@@ -59,7 +59,7 @@ body {
 }
 
 .aboutMe p {
-    color: green;
+    color: hsl(234deg, 16%, 35%);
 }
 
 .contentBox {
